@@ -8,9 +8,12 @@
     <title>Document</title>
 </head>
 <body>
-<br>
-<a href="<?php echo route('account') ?>">account</a><br>
-
-<a href="<?php echo route('logout') ?>">Logout</a>
+<a href="<?php echo route('home') ?>">Back</a><br>
 </body>
 </html>
+
+<?php
+
+
+dd($_SESSION['user_account']->getEmail());
+

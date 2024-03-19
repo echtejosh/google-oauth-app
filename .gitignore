@@ -1,3 +1,6 @@
 config/api.php
+config/smtp.php
 .idea
 storage/Framework/cache/
+vendor/
+client_secret.json
